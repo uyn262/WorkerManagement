@@ -42,9 +42,8 @@ public class Library {
         return a;
     }
 
-    //check user input double limit
+
     public double checkInputDouble(String promt) {
-        //loop until user input correct
         while (true) {
             System.out.println(promt + ": ");
             try {

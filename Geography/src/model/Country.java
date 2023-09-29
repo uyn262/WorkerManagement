@@ -9,13 +9,13 @@ package model;
  * @author Admin
  */
 public class Country extends EastAsiaCountries implements Comparable<Country>{
-     private String countryTerrain;
+    private String countryTerrain;
 
     public Country() {
     }
 
     public Country(String countryTerrain, String countryCode,
-            String countryName, double countryArea) {
+        String countryName, double countryArea) {
         super(countryCode, countryName, countryArea);
         this.countryTerrain = countryTerrain;
     }
